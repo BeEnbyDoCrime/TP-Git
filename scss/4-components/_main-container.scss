@@ -1,0 +1,27 @@
+.home-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .caroussel {
+      display: flex;
+      flex-wrap: wrap;
+
+      .imgContainer {
+        flex-basis: 25%;
+        margin-bottom: 20px;
+        transition: flex-basis 0.3s, scale 0.3s;
+        &:hover {
+          flex-basis: 50%;
+          & img {
+            scale: 2;
+          }
+        }
+      }
+
+    }
+}
+
+
+
