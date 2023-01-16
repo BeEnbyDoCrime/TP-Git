@@ -5,6 +5,7 @@
     </form>
     <!-- Affichage des images choppées en API -->
     <div class="caroussel">
+      
       <div class="imgContainer"><img src="http://placekitten.com/400/400" /></div>
       <div class="imgContainer"><img src="http://placekitten.com/400/400" /></div>
       <div class="imgContainer"><img src="http://placekitten.com/400/400" /></div>
